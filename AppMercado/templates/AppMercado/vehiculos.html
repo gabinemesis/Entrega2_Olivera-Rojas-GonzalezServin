@@ -1,0 +1,18 @@
+{% extends "AppMercado/padre.html"%}
+
+{% load static %}
+
+{% block Masthead %}
+<div class="container">
+    <div class="masthead-subheading">Vehiculos</div>
+    <div class="masthead-heading text-uppercase">TU MERCADO</div>
+{% endblock %}
+
+{% block contenido %}
+<div class="container">
+    <a class="navbar-brand"><a href={% url 'electrodomesticosFormulario' %}>Publicar un nuevo vehiculo</a>
+<div>
+<div class="container">
+    <a class="navbar-brand"><a href={% url 'electrodomesticosFormulario' %}>Buscar publicaciones de vehiculos</a>
+<div>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "AppMercado/padre.html"%}
+
+{% load static %}
+
+{% block Masthead %}
+<div class="container">
+    <div class="masthead-subheading">Electrodomesticos</div>
+    <div class="masthead-heading text-uppercase">TU MERCADO</div>
+{% endblock %}
+
+{% block contenido %}
+    <div class="container">
+        <a class="navbar-brand"><a href={% url 'electrodomesticosFormulario' %}>Publicar un nuevo electrodomestico</a>
+    <div>
+    <div class="container">
+        <a class="navbar-brand"><a href={% url 'electrodomesticosFormulario' %}>Buscar publicaciones de electrodomestico</a>
+    <div>
+{% endblock %}
